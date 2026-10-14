@@ -1,0 +1,57 @@
+Mono path[0] = 'Z:<ROOT>/Wobbledogs_Data/Managed'
+Mono config path = 'Z:<ROOT>/MonoBleedingEdge/etc'
+Initialize engine version: 2019.4.23f1 (3f4e01f1a5ec)
+[Subsystems] Discovering subsystems at path Z:<ROOT>/Wobbledogs_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 Ti (ID=0x2c05)
+    Vendor:   
+    VRAM:     16303 MB
+    Driver:   35.0.99.9999
+Begin MonoManager ReloadAssembly
+- Completed reload, in <TIME> seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+
+<RI> Input initialized.
+
+<RI> Initialized touch support.
+
+The referenced script on this Behaviour (Game Object 'Base') is missing! 
+(Filename:  Line: 334)
+
+UnloadTime: <TIME> ms
+Couldn't create a Convex Mesh from source mesh "Candy_corn" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. 
+(Filename:  Line: 91)
+
+Couldn't create a Convex Mesh from source mesh "Cactus_Fruit" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. 
+(Filename:  Line: 91)
+
+Couldn't create a Convex Mesh from source mesh "Polished_stone" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. 
+(Filename:  Line: 91)
+
+Couldn't create a Convex Mesh from source mesh "Hull 2" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. 
+(Filename:  Line: 91)
+
+Couldn't create a Convex Mesh from source mesh "Hull 1" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. 
+(Filename:  Line: 91)
+
+Couldn't create a Convex Mesh from source mesh "Spider_BODY" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. 
+(Filename:  Line: 91)
+
+[Steamworks.NET] SteamAPI_Init() failed. Refer to Valve's documentation or the comment above this line for more information. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+InControl (version 1.8.4 build 9364) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: <ID> -> priority: 1 
+  Thread -> id: <ID> -> priority: 1 
+  Thread -> id: <ID> -> priority: 1 
+  Thread -> id: <ID> -> priority: 1 
+  Thread -> id: <ID> -> priority: 1 
+  Thread -> id: <ID> -> priority: 1 
+  Thread -> id: <ID> -> priority: 1 
+  Thread -> id: <ID> -> priority: 1 

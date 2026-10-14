@@ -1,0 +1,31 @@
+FloraGUI: disambiguate an optional-parameter overload call
+==========================================================
+
+ILSpy renders `FloraGUI.Awake`'s call as a bare `OpenAllFloraPage()`, which C#
+cannot resolve because both overloads have all-optional parameters:
+
+    public void OpenAllFloraPage(bool fromBackButton = false)
+    public void OpenAllFloraPage(bool immediate = false, bool playSounds = true, bool fromBackButton = false)
+
+The original IL picks the three-argument overload explicitly:
+
+    IL_003a: ldarg.0
+    IL_003b: ldc.i4.0
+    IL_003c: ldc.i4.1
+    IL_003d: ldc.i4.0
+    IL_003e: call instance void FloraGUI::OpenAllFloraPage(bool, bool, bool)
+
+so the fix spells the arguments out. Purely a source-level repair; the emitted
+call is the same one the original performs.
+
+--- a/FloraGUI.cs
++++ b/FloraGUI.cs
+@@ -108,7 +108,7 @@
+ 		inventoryRef = registrationScript.GetGlobalComponent<InventoryManager>(GlobalObject.INVENTORY_MANAGER);
+ 		dogGutsManagerRef = registrationScript.GetGlobalComponent<DogGutsManager>(GlobalObject.DOG_GUT_MANAGER);
+ 		SFXOverlord.LockInWorldSFX(LockReason.FLORA_GUI);
+-		OpenAllFloraPage();
++		OpenAllFloraPage(immediate: false, playSounds: true, fromBackButton: false);
+ 	}
+ 
+ 	private void Update()

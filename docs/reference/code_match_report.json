@@ -1,0 +1,142 @@
+{
+  "tool": "measure_code.py",
+  "ilspycmd": "ilspycmd: 11.1.0.9782\nICSharpCode.Decompiler: 11.1.0.9782",
+  "assemblies": {
+    "Assembly-CSharp-firstpass.dll": {
+      "original_sha256": "d70228947a673ac09989409d713d50a0c28fadf6e409a9ff311b716dc1a341be",
+      "rebuilt_sha256": "63799e14c2a0b6ff39206497489d64809e5bfee84bccff8057792de2eca607d9",
+      "scopes": {
+        "all": {
+          "bodies": 3441,
+          "bodies_matched": 3367,
+          "bodies_differing": 71,
+          "bodies_missing": 3,
+          "bodies_extra": 0,
+          "code_bytes": 94921,
+          "code_bytes_matched": 76221,
+          "code_matched": 0.8029940687519095
+        },
+        "hand_authored": {
+          "bodies": 3429,
+          "bodies_matched": 3358,
+          "bodies_differing": 68,
+          "bodies_missing": 3,
+          "bodies_extra": 0,
+          "code_bytes": 94349,
+          "code_bytes_matched": 76033,
+          "code_matched": 0.8058696965521627
+        },
+        "normalized": {
+          "bodies": 3429,
+          "bodies_matched": 3362,
+          "bodies_differing": 64,
+          "bodies_missing": 3,
+          "bodies_extra": 0,
+          "code_bytes": 94349,
+          "code_bytes_matched": 76798,
+          "code_matched": 0.8139778905976746
+        },
+        "normalized_all": {
+          "bodies": 3441,
+          "bodies_matched": 3371,
+          "bodies_differing": 67,
+          "bodies_missing": 3,
+          "bodies_extra": 0,
+          "code_bytes": 94921,
+          "code_bytes_matched": 76986,
+          "code_matched": 0.8110534023029677
+        }
+      }
+    },
+    "Assembly-CSharp.dll": {
+      "original_sha256": "17d39c834d1038fff5425fbf653c0fd5bf5a49424f442e386b09733acbef6e61",
+      "rebuilt_sha256": "7f8b0416276495a9f601b7390b49f83a232327385f4997038d082e4fb8c704e3",
+      "scopes": {
+        "all": {
+          "bodies": 13328,
+          "bodies_matched": 11361,
+          "bodies_differing": 1812,
+          "bodies_missing": 155,
+          "bodies_extra": 151,
+          "code_bytes": 1045641,
+          "code_bytes_matched": 671365,
+          "code_matched": 0.6420607072599487
+        },
+        "hand_authored": {
+          "bodies": 12309,
+          "bodies_matched": 10677,
+          "bodies_differing": 1628,
+          "bodies_missing": 4,
+          "bodies_extra": 0,
+          "code_bytes": 970990,
+          "code_bytes_matched": 635599,
+          "code_matched": 0.6545886157426956
+        },
+        "normalized": {
+          "bodies": 12309,
+          "bodies_matched": 10771,
+          "bodies_differing": 1534,
+          "bodies_missing": 4,
+          "bodies_extra": 0,
+          "code_bytes": 970990,
+          "code_bytes_matched": 666809,
+          "code_matched": 0.6867310682911255
+        },
+        "normalized_all": {
+          "bodies": 13328,
+          "bodies_matched": 11458,
+          "bodies_differing": 1715,
+          "bodies_missing": 155,
+          "bodies_extra": 151,
+          "code_bytes": 1045641,
+          "code_bytes_matched": 704481,
+          "code_matched": 0.6737312328036105
+        }
+      }
+    }
+  },
+  "total": {
+    "scopes": {
+      "all": {
+        "code_bytes": 1140562,
+        "code_bytes_matched": 747586,
+        "bodies": 16769,
+        "bodies_matched": 14728,
+        "bodies_differing": 1883,
+        "bodies_missing": 158,
+        "bodies_extra": 151,
+        "code_matched": 0.655454065627296
+      },
+      "hand_authored": {
+        "code_bytes": 1065339,
+        "code_bytes_matched": 711632,
+        "bodies": 15738,
+        "bodies_matched": 14035,
+        "bodies_differing": 1696,
+        "bodies_missing": 7,
+        "bodies_extra": 0,
+        "code_matched": 0.6679864343650237
+      },
+      "normalized": {
+        "code_bytes": 1065339,
+        "code_bytes_matched": 743607,
+        "bodies": 15738,
+        "bodies_matched": 14133,
+        "bodies_differing": 1598,
+        "bodies_missing": 7,
+        "bodies_extra": 0,
+        "code_matched": 0.6980003548166358
+      },
+      "normalized_all": {
+        "code_bytes": 1140562,
+        "code_bytes_matched": 781467,
+        "bodies": 16769,
+        "bodies_matched": 14829,
+        "bodies_differing": 1782,
+        "bodies_missing": 158,
+        "bodies_extra": 151,
+        "code_matched": 0.6851595967601937
+      }
+    }
+  }
+}

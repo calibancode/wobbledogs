@@ -1,0 +1,10 @@
+# Everything below is generated or derived and must not be committed.
+#
+# .local-data/              extracted originals + decompiled C# (copyright-bearing)
+# build/                    rebuilt assemblies, runnable tree, logs, reports, Proton prefix
+/.local-data/
+/build/
+
+# Python
+__pycache__/
+*.pyc
